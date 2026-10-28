@@ -22,14 +22,88 @@ Borra el ejemplo de abajo cuando escribas el primero.
 
 ## Prompt 1
 
-**Modelo:** Opus 1M xHigh
+**Modelo:** Sonnet 5.5 xHigh
 **Herramienta:** Claude Code
 
 ```
-Este es el ejemplo. Bórralo.
-
-El prompt va aquí dentro, entero y con sus saltos de línea,
-para que se sepa dónde empieza y dónde acaba.
+crea el archivo Claude.md con a siguiente regla: este repositorio es el dueño del contenido y todo archivo nuevo debe empezar con un comentario que lo indique.
 ```
 
-**Qué salió:** (opcional, una línea) funcionó a la primera / tuve que insistir / me inventó una ruta que no existe.
+**Qué salió:** funcionó a la primera.
+
+## Prompt 2
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+crea el archivo Claude.md en la carpeta blog-ai con la siguiente regla: los nombres de los campos del contrato público deben escribirse en español, nunca en inglés.
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 3
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+Mediante PostToolUse para las herramientas Write y Edit. Debe añadir una línea a MARCADORES-<nombre-del-repo>.txt, en la raíz de su propio repositorio, con la fecha, la herramienta utilizada y la ruta del archivo modificado. Usa rutas absolutas: el hook tendrá que registrar cambios en archivos situados fuera de su repositorio.
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 4
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+Crea una skill sencilla llamada marcador-<nombre-del-repo>, cuya descripción indique a qué repositorio pertenece.
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 5
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+Añade la clase ResultadoBusqueda, en ../blog-ai/app/esquemas.py, un campo que indique cuántos fragmentos del artículo han coincidido con la búsqueda. Modifica solo ese archivo y utiliza la herramienta de edición de archivos, nunca un script.
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 6
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+que archivos Claude.md se han cargado al iniciar sesion?
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 7
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+que skills tienes disponibles?
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
+
+## Prompt 8
+
+**Modelo:** Sonnet 5.5 xHigh
+**Herramienta:** Claude Code
+
+```
+que nombre has dado a la propiedad y porqué?
+```
+
+**Qué salió:** (opcional, una línea) funcionó a la primera.
