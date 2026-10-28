@@ -1,0 +1,2 @@
+1. **Qué dijo el agente en el paso 4:** los CLAUDE.md de `/blog` y `/blog-api`. Los skills de `/blog-api` y `/blog-ia`. EL campo lo llamo `fragmentos_coincidentes`
+2. **Qué encontraste en cada archivo de marcadores y qué indica sobre dónde se ejecuta cada guardarraíl:** Se ejecutó el guardarail de `blog-api`, pero no las instrucciones de su CLAUDE.md. Tampoco se ejecuto el guardarial de `blog-ia`. `MARCADORES-blog-ia.txt` no existe.
